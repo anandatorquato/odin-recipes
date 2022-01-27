@@ -1,0 +1,80 @@
+/* GENERAL SETTING */
+
+* {
+    font-family:monospace;
+    font-size: 20px;
+    margin: 0;
+}
+
+/* HEADING */
+
+h1 {
+    font-size: 40px;
+}
+
+/* GLOBAL SETTING */
+
+h1, .p-main, figure, .ul-main, h2, .p-recipes{
+    text-align: center;
+}
+
+h1, figure, h2, ul, ol, p {
+    margin: 20px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    padding: 10px;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+
+}
+
+a, a:active {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Index Page */
+
+.img-main {
+    width:100%;
+    height: 100%;
+}
+
+section .ul-main li {
+    display: inline-flex;
+
+}
+
+.link-main {
+    background-color:#F6AA1C;
+}
+
+.link-main:hover {
+    background-color:#bc3908;
+}
+
+
+/* Recipes Page */
+
+section figure img {
+    width: 50%;
+    height: 50%;
+}
+
+figcaption {
+    color: grey;
+}
+
+.p-recipes {
+    margin: 0 50px;
+}
